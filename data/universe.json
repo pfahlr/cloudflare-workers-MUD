@@ -1,0 +1,43 @@
+{
+  "introText": "intro/en.md",
+  "rollPrompts": "data/roll-prompts.json",
+  "classes": [
+    {"id": "warrior", "description": "Excels at melee combat."},
+    {"id": "mage", "description": "Harnesses arcane powers."},
+    {"id": "thief", "description": "Prefers stealth and agility."}
+  ],
+  "races": [
+    {"id": "human", "description": "Balanced and adaptable."},
+    {"id": "elf", "description": "Graceful and attuned to magic."},
+    {"id": "dwarf", "description": "Stout and resilient."}
+  ],
+  "attributes": [
+    "strength",
+    "agility",
+    "intelligence",
+    "constitution"
+  ],
+  "equipLocations": {
+    "head": {"types": ["armor"]},
+    "body": {"types": ["armor"]},
+    "leftHand": {"types": ["weapon", "shield"]},
+    "rightHand": {"types": ["weapon", "shield"]}
+  },
+  "worlds": {
+    "earth": {
+      "realms": {
+        "gaia": {
+          "lands": {
+            "greenfield": {
+              "regions": {
+                "beginner_forest": {
+                  "file": "worlds/earth/realms/gaia/lands/greenfield/regions/beginner_forest.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

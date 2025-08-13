@@ -1,0 +1,12 @@
+{
+  "rabbit": {
+    "name": "Timid Rabbit",
+    "description": "A small rabbit munching on grass.",
+    "stats": {"hp": 5, "attack": 1}
+  },
+  "town_crier": {
+    "name": "Town Crier",
+    "description": "A loud crier announcing the news.",
+    "stats": {"hp": 20, "attack": 2}
+  }
+}
