@@ -1,5 +1,7 @@
 # CloudFlare Workers Based MUD 
 
+Prototype data files can be found under `data/`, and an overview of the architecture, persistence options, and front-end considerations lives in `docs/architecture.md`.
+
 I'm starting from the workers chat example as it was in reading about this that 
 I even got the idea. Here that example uses separate chat rooms, I'm thinking 
 that is where we will define the map locations. I need to fully wrap my mind 
