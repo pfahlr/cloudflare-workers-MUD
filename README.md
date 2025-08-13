@@ -8,9 +8,9 @@ in my head here.
 
 # World Definition 
 **Set of files**:
-`universe.json`: defines the main infomation about the game 'universe', 
+`universe.json`: defines the main information about the game 'universe',
 ```
-'into-text': link to a markdown file with text about the world... a story introduction (locale string may be appended to filename for internationalization support)
+'intro-text': link to a markdown file with text about the world... a story introduction (locale string may be appended to filename for internationalization support)
 
 'roll-prompts': link to a json file with all the user prompts for character creation (locale string as above)
 
@@ -23,7 +23,7 @@ modifiers, and descriptions.
 
 'attributes': array of attributes and their possible values
 
-'equip-locations': array of places where items may be equipped and which types where. ('head':{'type':'armor'},'body'{'type':'armor'},'lefthand':{'type':'weapon'}, 'righthand':{'type':'weapon'} } etc...
+'equip-locations': array of places where items may be equipped and which types where. ('head':{'type':'armor'},'body':{'type':'armor'},'lefthand':{'type':'weapon'}, 'righthand':{'type':'weapon'} } etc...
 
 'appearance': object describing character's phys features. 
 
@@ -31,7 +31,7 @@ modifiers, and descriptions.
 
 
 ```
-## description of the game maps... each of these down to region will have their own file, describing the characteristics of each, position relative to eachother etc. Universe.json will contain a complete enumeration of these files, or at least the directories where to find them. whichever works, we're going to see about getting AI to generate all of this. Of course they may be edited manually, but, definitely supplemented by AI
+## description of the game maps... each of these down to region will have their own file, describing the characteristics of each, position relative to each other etc. Universe.json will contain a complete enumeration of these files, or at least the directories where to find them. Whichever works, we're going to see about getting AI to generate all of this. Of course they may be edited manually, but, definitely supplemented by AI
 
 'worlds': an object of with 5 levels depth 
     'world' => 'think of this like a planet, by default this is fixed, but I want to leave this open for waaayy future extension possibilities, 
@@ -44,7 +44,7 @@ modifiers, and descriptions.
 
 The chat app uses websockets, so interaction all happens in real time. this should make for very interesting play. Further, if we program the characteristics of the players and the areas to follow some sort of structure, it will likely be possible to build a program in godot to read the text interaction going on behind the scenes and convert to at least rudimentary graphical play displayed in html5canvas.  
 
-Whatever the case may be the main game logic is standard dungeon rpg, fight enemeies, get exp/gold, buy weapons, armor, spells, level your player, gather loot, sell loot, become overencumbered, learn skills, learn magic, become vampire, werewolf, maybe program some random neurodivergence into the characters, variables/probabilities, calculate results, etc. 
+Whatever the case may be the main game logic is standard dungeon rpg, fight enemies, get exp/gold, buy weapons, armor, spells, level your player, gather loot, sell loot, become overencumbered, learn skills, learn magic, become vampire, werewolf, maybe program some random neurodivergence into the characters, variables/probabilities, calculate results, etc.
 
 With the chatroom stuff, you can interact with other players, so its the chatroom becomes location bases, and the MUD logic is going on in addition to it. Just like any of those old bbs games. Simple stuff. This should be fun and relatively easy to put together... famous last words, right. :)
 
