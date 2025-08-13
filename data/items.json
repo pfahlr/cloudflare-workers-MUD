@@ -1,0 +1,10 @@
+{
+  "stone": {
+    "name": "Small Stone",
+    "description": "A smooth, palm-sized stone. It might be useful for something."
+  },
+  "healing_potion": {
+    "name": "Minor Healing Potion",
+    "description": "Restores a small amount of health when consumed."
+  }
+}

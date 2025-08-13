@@ -1,0 +1,22 @@
+{
+  "id": "beginner_forest",
+  "name": "Beginner's Forest",
+  "rooms": [
+    {
+      "id": "clearing",
+      "title": "Forest Clearing",
+      "description": "Sunlight pours into a small clearing surrounded by ancient trees.",
+      "exits": {"north": "forest_path"},
+      "items": ["stone"],
+      "npcs": ["rabbit"]
+    },
+    {
+      "id": "forest_path",
+      "title": "Forest Path",
+      "description": "A narrow path winding deeper into the forest.",
+      "exits": {"south": "clearing"},
+      "items": ["healing_potion"],
+      "npcs": ["town_crier"]
+    }
+  ]
+}
